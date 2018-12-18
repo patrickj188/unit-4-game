@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|ZCOOL+XiaoWei" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../unit-4-game/assets/style/reset.css">
+  <script type="text/javascript" src="../unit-4-game/assets/javascript/game.js" async defer></script>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="display-3 text-center">Crystal Collector!</h1>
+    <p class="lead"><strong>How to play</strong></p>
+    <hr class="my-2">
+    <p><strong></strong> will be given a random number at the start of the game. There are four crystals on the page.
+      By clicking on a crystal you will add a specific amount of points to your total score. You win the game by
+      matching your total score to the random number.
+      You lose the game if your total score goes above the random number. The value of each crystal is hidden from you
+      until you click on it.</strong></p>
+
+    <div>
+      <p id="wins-score">Wins: </p>
+      <p id="losses-score">losses: </p>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="" alt="">
+      <div class="card-body">
+        <h4 id="your-number" class="card-title text-center">Your Number: </h4>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="" alt="">
+      <div class="card-body">
+        <h4 id="score" class="card-title text-center">Total Score: </h4>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="">
+    <div class="card-body">
+      <h4 class="card-title text-center">Crystals</h4>
+      <div id="crystals">
+      
+        <img id="crystal1" class="crystal-image" src="../unit-4-game/assets/images/blue.png">
+        
+        <img id="crystal2" class="crystal-image" src="../unit-4-game/assets/images/yellow.png">
+       
+        <img id="crystal3" class="crystal-image" src="../unit-4-game/assets/images/red.png">
+       
+        <img id="crystal4" class="crystal-image" src="../unit-4-game/assets/images/green.png">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script> 
+</body>
+
+</html>
